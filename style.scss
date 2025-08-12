@@ -13,5 +13,9 @@ window.Bar {
     border-radius: 10px;
     padding: 0 10px;
     margin: 0;
+
+  > coolstuff {
+    padding: 0 0;
+  }
   }
 }

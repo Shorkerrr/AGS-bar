@@ -31,14 +31,15 @@ export default function Bar(monitor = 0) {
         halign={Gtk.Align.CENTER}
         />
 </button>
-  <eventbox 
-        onButtonPressEvent={() => {
+  <button
+        cssName="coolstuff"
+        onClicked={() => {
           doCoolStuff();
         }}
-      halign={Gtk.Align.LEFT}
+        halign={Gtk.Align.START}
     >
       <label label="mysterious button" />
-    </eventbox> 
+    </button> 
   </window>
 
   
